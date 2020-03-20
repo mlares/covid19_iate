@@ -20,6 +20,53 @@ Pandemic:
 - `Article in KDnuggets <https://www.kdnuggets.com/2020/03/covid-19-your-community-you-data-science-perspective.html>`_
 - `Infection Trajectory in VisualCapitalist <https://www.visualcapitalist.com/infection-trajectory-flattening-the-covid19-curve/>`_
 
+Notebooks
+---------
+
+Hasta ahora hay dos notebooks que son mas que nada exploratorios de los datos compilados por `Johns Hopkins CSSE<https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30120-1/fulltext>`_
+
+world.ipynb:
+   carga datos de la poblacion y area de los paises para construir una tabla con esos dos datos.  Luego se usará para normalizar las curvas de contagio de los diferentes países.
+
+load_data.ipynb:
+   Carga los datos de JHU CSSE y analiza las curvas de contagio de algunos países.
+
+
+
+DATA
+---------
+
+Los datos actualizados son leidos directamente de GitHub, no hace falta bajarlos.
+
+Los datos sobre poblacion y area de los países:
+
+table-1.csv:
+   source: `<https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area>`_
+   preprocessed with `<https://wikitable2csv.ggor.de/>`_
+
+table-2.csv:
+   source: `<https://en.wikipedia.org/wiki/List_of_countries_by_population_(United_Nations)>`_
+   preprocessed with `<https://wikitable2csv.ggor.de/>`_
+
+world_area.csv:
+   Tabla limpia con las areas
+
+world_population.csv:
+   Tabla limpia con las poblaciones
+
+world.ods:
+   Archivo ODS con las dos tablas (para verificar a ojo)
+
+pop_area.csv:
+   Tabla con las columnas de poblacion y area combinadas
+
+
+
+
+
+
+
+
 
 
 
